@@ -235,4 +235,9 @@ body, html {
     text-align: center;
     padding: 15px;
 }
-
+ 
+.year-content img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
