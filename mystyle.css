@@ -22,8 +22,8 @@ body, html {
     font-size: 40px;
     font-family: "Zilla Slab", serif;
     color: white;
-    text-shadow: 0 0 4px #105309, 0 0 6px #054829; /* Adjusted shadow for better readability */
-    background-color: rgba(73, 154, 57, 0.9); /* Increased opacity for better contrast */
+    text-shadow: 0 0 4px #105309, 0 0 6px #054829;
+    background-color: rgba(73, 154, 57, 0.9);
     margin-top: 0;
     padding: 5px;
 }
@@ -41,13 +41,13 @@ body, html {
 
 .profile img:hover {
     transition: 0.2s;
-    box-shadow: 3px 3px 8px rgba(0, 89, 40, 0.9); /* Softer shadow */
+    box-shadow: 3px 3px 8px rgba(0, 89, 40, 0.9);
 }
 
 .profile img {
     width: 300px;
     border-radius: 50px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Softer shadow */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .about {
@@ -75,7 +75,7 @@ body, html {
     background-color: white;
     overflow: hidden;
     padding: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 .description p {
@@ -277,4 +277,11 @@ body, html {
     margin: 2px 2px;
     padding-left: 10px;
     text-align: center;
+}
+
+.jobpic img {
+    height: 302px;
+    width: 350px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
