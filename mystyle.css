@@ -10,7 +10,7 @@ body {
     
 }
 
-html, body {
+body, html {
     height: 100%;
 }
 
@@ -224,5 +224,15 @@ html, body {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    align-content: center;
 }
+
+.year:hover {
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 15px rgba(0, 89, 40, 0.9);
+}
+
+.year-content {
+    text-align: center;
+    padding: 15px;
+}
+
