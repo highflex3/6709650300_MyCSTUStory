@@ -205,3 +205,19 @@ body {
     box-shadow: 3px 3px 8px rgba(0, 89, 40, 0.9);
 }
 
+.year {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
